@@ -55,14 +55,10 @@ img {
     padding-bottom: 4rem;
 }
 
-.films-item{
-    width: 15rem;
+.card-img-top{
+    width: 18rem;
 }
 
-
-.card {
-    border: none;
-}
 
 .card-title {
     font-family: 'Roboto' sans-serif;
