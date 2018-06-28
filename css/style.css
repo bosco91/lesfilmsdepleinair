@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body {
+    font-family: 'PT Sans', Arial, sans-serif;
+    background-color: #fefefe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f1595a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.9375rem;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+#cookies-banner {
+    position: relative;
+    margin-bottom: 0;
+    height: 4rem;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.festival {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.films {
+    background-color: #f9f9f9;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.blog {
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.contact {
+    background: #f9f9f9;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.films-item{
+    width: 15rem;
+}
+
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-family: 'Roboto' sans-serif;
+    color: #4e3e91;
+}
+
+.single-news {
+    margin-top: 1.875rem;
+}
+
+.news-image {
+    position: relative;
+}
+
+.news-image img {
+    width: 100%;
+}
+
+.new-date {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #f1595a;
+}
+
+.new-date h4 {
+    text-transform: uppercase;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.new-date span {
+    padding: 15px;
+    display: inline-block;
+}
+
+.new-date h4 span.month {
+    background-color: #f1595a;
+}
+
+.new-date h4 span.date {
+    background-color: #31BFC3;
+}
+
+.news-content .btn {
+    margin-top: 10px;
+}
+
+.news-meta {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: #31bfc3
+}
+
+.news-meta span {
+    float: left;
+    margin-right: 15px;
+}
+
+.news-meta span i.fa {
+    margin-right: 4px;
+}
+
+.news-content .button {
+    color: #333;
+    text-transform: uppercase;
+}
+
+.news-modal .modal-content img {
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.news-content .subtitle {
+    text-transform: uppercase;
+    margin-bottom: 0.625rem;
+    font-size: 1.125rem;
+}
+
+.btnform {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 0px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    color: #fff;
+    background: #4e3e91;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btnform:hover {
+    color: #fff;
+    background: #4e3e91;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #f1595a;
+    background-color: #fff;
+    border: none;
+}
+
+.form-control {
+    display: block;
+    border: 0px;
+    width: 100%;
+    height: 3rem;
+    padding: .5rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-form .form-group {
+    position: relative;
+    border: 1px solid #bbb;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group:before {
+    position: absolute;
+    height: 45px;
+    font-family: FontAwesome;
+    top: 0;
+    left: 0;
+    width: 1rem;
+    text-align: center;
+    line-height: 45px;
+    color: #82b541;
+    font-size: 18px;
+}
+
+.contact-form #message {
+    padding-top: 10px;
+    height: 150px;
+}
+
+#submitButton {
+    color: #fff
+}
+
+.social-media a {
+    color: #333;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 1.875rem;
+}
+
+.social-media a:hover {
+    color: #f1595a;
+}
+
+.copyright-area {
+    background: #333333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.copy-right p {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.section-footer {
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        margin-bottom: 0.5rem;
+        padding: 0.20rem 0.50rem;
+        font-size: 0.5rem;
+    }
+    img {
+        margin-bottom: 0.5rem;
+    }
+    .festival {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .films {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .blog {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    #cookies-banner {
+        position: relative;
+        margin-bottom: 0;
+        height: 4rem;
+        font-size: 0.6rem;
+    }
+}
